@@ -122,17 +122,6 @@ nav ul li a:hover {
     position: relative;
 }
 
-.hero2 {
-  height: 100vh;
-  background-image: url('img/fundo.png');
- 
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
 .hero::after {
     content: '';
     position: absolute;
@@ -198,12 +187,10 @@ nav ul li a:hover {
 
 .section-title2 {
   font-size: 39px;
-  
   margin-bottom: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-  
   color: #fcaf17;
   text-shadow: 0 0 0px rgba(48, 48, 48, 0.253), 0 0 60px rgb(251, 255, 0), 0 0 0px rgba(0, 0, 0, 0); /* Azul neon */
 }
@@ -255,7 +242,6 @@ nav ul li a:hover {
 
 /* NEWS SECTION */
 .news-section {
-    background-image: url('img/fundo2.png');
     background-color: #111;
     padding: 100px 0;
 }
@@ -506,37 +492,7 @@ ull {
     animation: slideIn var(--duration) var(--delay) forwards,
       slideOut 1s calc(var(--delay) + var(--duration)) forwards;
   }
-
-  .title2 {
-    font-size: 4rem;
-    line-height: 120%;
-    font-weight: bold;
-  }
   
-  .title2 span {
-    --duration: 2s;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin-block: 4px;
-    color: transparent;
-    animation: reveal 1s calc(var(--delay) + var(--duration)) forwards;
-  }
-  
-  .title2 span::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #131313;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: slideIn var(--duration) var(--delay) forwards,
-      slideOut 1s calc(var(--delay) + var(--duration)) forwards;
-  }
-
   @keyframes reveal {
     to {
       color: white;
