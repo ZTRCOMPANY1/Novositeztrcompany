@@ -9,9 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     line-height: 1.6;
-    align-items: center;
-    justify-content: center;
-    
+    text-align: center;
 }
 
 /* HEADER */
@@ -617,14 +615,3 @@ ull {
     line-height: 80px;
     cursor: pointer;
   }  
-
-  .content h1 {
-    margin-top: 20px;
-    font-size: 28px;
-}
-
-.sec2 {
- 
-  text-align: center;
-  
-}
