@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+      e.preventDefault();
+      alert('DevTools está desativado.');
+    }
+  });
+
 
 // Exemplo básico de navegação sem recarregar a página
 document.querySelectorAll('a').forEach(anchor => {
